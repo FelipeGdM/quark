@@ -9,5 +9,11 @@ flowchart TD
     subgraph quark_driver
         motor(quark_motor_bringup)
         camera(quark_camera_bringup)
+        motor --> vesc(vesc_driver)
+        camera --> depth_ai(depthai_ros_driver)
     end
+
+    classDef extDep fill:#f9f;
+
+    class vesc,depth_ai extDep;
 ```
