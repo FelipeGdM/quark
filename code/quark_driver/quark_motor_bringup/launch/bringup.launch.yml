@@ -1,0 +1,30 @@
+
+launch:
+  - group:
+    - push-ros-namespace:
+        namespace: /vesc
+    - node:
+        pkg: vesc_driver
+        exec: vesc_driver_node
+        name: vesc_driver_node
+        namespace: vesc
+        respawn: True
+        param: 
+            - from: $(find-pkg-share quark_motor_bringup)/params/vesc_config.yml
+    - include:
+        file: $(find-pkg-share vesc_driver)/launch/vesc_driver_node.launch.py
+        arg:
+          - name: params
+            value: $(find-pkg-share quark_motor_bringup)/params/vesc_config.yml
+
+  - node:
+    pkg: "key_teleop"
+    exec: "key_teleop"
+    name: "key_teleop"
+
+  - node:
+    pkg: "topic_tools"
+    exec: "transform"
+    name: "forward"
+    args: ""
+
