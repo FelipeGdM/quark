@@ -1,0 +1,69 @@
+[submodule "ackermann_msgs"]
+	path = code/quark_driver/vendor/ackermann_msgs
+	url = https://github.com/ros-drivers/ackermann_msgs.git
+	branch = ros2
+[submodule "ds4_driver"]
+	path = code/quark_driver/vendor/ds4_driver
+	url = https://github.com/naoki-mizuno/ds4_driver.git
+	branch = foxy-devel
+[submodule "teleop_tools"]
+	path = code/quark_driver/vendor/teleop_tools
+	url = https://github.com/ros-teleop/teleop_tools.git
+	branch = foxy-devel
+[submodule "topic_tools"]
+	path = code/quark_driver/vendor/topic_tools
+	url = https://github.com/ros-tooling/topic_tools.git
+	branch = main
+[submodule "transport_drivers"]
+	path = code/quark_driver/vendor/transport_drivers
+	url = https://github.com/ros-drivers/transport_drivers.git
+[submodule "udp_msgs"]
+	path = code/quark_driver/vendor/udp_msgs
+	url = https://github.com/flynneva/udp_msgs.git
+[submodule "vesc"]
+	path = code/quark_driver/vendor/vesc
+	url = http://github.com/f1tenth/vesc.git
+	branch = ros2
+[submodule "opencv_cam"]
+	path = code/quark_driver/vendor/opencv_cam
+	url = https://github.com/clydemcqueen/opencv_cam.git
+[submodule "depthai-ros"]
+	path = code/quark_driver/vendor/depthai-ros
+	url = https://github.com/luxonis/depthai-ros.git
+[submodule "xacro"]
+	path = code/quark_driver/vendor/xacro
+	url = https://github.com/ros/xacro.git
+	branch = ros2
+[submodule "vision_msgs"]
+	path = code/quark_driver/vendor/vision_msgs
+	url = https://github.com/ros-perception/vision_msgs.git
+[submodule "vision_opencv"]
+	path = code/quark_driver/vendor/vision_opencv
+	url = https://github.com/ros-perception/vision_opencv.git
+[submodule "ros2_shared"]
+	path = code/quark_driver/vendor/ros2_shared
+	url = https://github.com/ptrmu/ros2_shared.git
+[submodule "rviz"]
+	path = code/quark_driver/vendor/rviz
+	url = https://github.com/ros2/rviz.git
+[submodule "point_cloud_transport"]
+	path = code/quark_driver/vendor/point_cloud_transport
+	url = https://github.com/ros-perception/point_cloud_transport.git
+[submodule "gz_math6_vendor"]
+	path = code/quark_driver/vendor/gz_math6_vendor
+	url = https://github.com/gazebo-release/gz_math6_vendor.git
+[submodule "diagnostics"]
+	path = code/quark_driver/vendor/diagnostics
+	url = https://github.com/ros/diagnostics.git
+[submodule "gz_cmake2_vendor"]
+	path = code/quark_driver/vendor/gz_cmake2_vendor
+	url = https://github.com/gazebo-release/gz_cmake2_vendor.git
+[submodule "control_msgs"]
+	path = code/quark_driver/vendor/control_msgs
+	url = https://github.com/ros-controls/control_msgs.git
+[submodule "imu_tools"]
+	path = code/quark_driver/vendor/imu_tools
+	url = https://github.com/CCNYRoboticsLab/imu_tools.git
+[submodule "schemas"]
+	path = code/quark_driver/vendor/schemas
+	url = https://github.com/foxglove/schemas.git

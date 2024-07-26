@@ -49,3 +49,7 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+perception/cone_detection_ncnn/params
+*.pyc
+*.jpg
