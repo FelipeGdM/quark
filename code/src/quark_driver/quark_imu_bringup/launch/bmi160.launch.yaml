@@ -1,0 +1,23 @@
+launch:
+
+  - node:
+      pkg: imu_pkg
+      exec: imu_node
+      name: imu_pub
+      param:
+        - name: calibrate
+          value: True
+        - name: publish_rate
+          value: 60
+      remap:
+        - from: /data_raw
+          to: /imu/data_raw
+
+  - node:
+      pkg: imu_filter_madgwick
+      exec: imu_filter_madgwick_node
+      param:
+        - name: use_mag
+          value: False
+        - name: remove_gravity_vector
+          value: True
