@@ -68,3 +68,6 @@
 [submodule "schemas"]
 	path = code/src/quark_driver/vendor/schemas
 	url = https://github.com/foxglove/schemas.git
+[submodule "larsll-deepracer-imu-pkg"]
+	path = code/src/quark_driver/vendor/larsll-deepracer-imu-pkg
+	url = https://github.com/FelipeGdM/larsll-deepracer-imu-pkg.git
